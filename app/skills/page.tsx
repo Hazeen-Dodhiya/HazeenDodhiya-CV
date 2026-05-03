@@ -1,6 +1,6 @@
 export default function Skills() {
   return (
-    <section className="px-10 py-20 text-white max-w-5xl mx-auto">
+    <main className="min-h-screen bg-gray-950 text-white px-10 py-20 max-w-5xl mx-auto">
 
       <h2 className="text-4xl font-bold">Technical Skills</h2>
 
@@ -20,7 +20,7 @@ export default function Skills() {
         </div>
       </div>
 
-      {/* WEB DEVELOPMENT */}
+      {/* FULL STACK */}
       <div className="mt-10">
         <h3 className="text-2xl font-semibold">Full-Stack Development</h3>
         <div className="flex flex-wrap gap-3 mt-4">
@@ -44,7 +44,7 @@ export default function Skills() {
         </div>
       </div>
 
-      {/* SYSTEMS & TOOLS */}
+      {/* SYSTEMS */}
       <div className="mt-10">
         <h3 className="text-2xl font-semibold">Systems & Tools</h3>
         <div className="flex flex-wrap gap-3 mt-4">
@@ -74,6 +74,6 @@ export default function Skills() {
         </div>
       </div>
 
-    </section>
+    </main>
   );
 }
