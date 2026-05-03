@@ -5,7 +5,7 @@ export default function About() {
       <h2 className="text-4xl font-bold">About Me</h2>
 
       <p className="text-gray-300 mt-6 leading-relaxed">
-        I am <span className="text-white font-semibold">Hazeen Dodhiya</span>, a final-year
+        I am <span className="text-white font-semibold">Mohammad Hazeen Dodhiya</span>, a final-year
         Computer Science student from FAST NUCES, Pakistan, with a strong foundation in
         software engineering, systems programming, and AI-driven applications.
       </p>

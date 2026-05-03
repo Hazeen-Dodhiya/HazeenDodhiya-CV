@@ -13,7 +13,7 @@ export default function Home() {
           <div className="flex-1 text-center md:text-left">
 
             <h1 className="text-5xl font-bold leading-tight">
-              Hi, I'm <span className="text-blue-500">Hazeen Dodhiya</span> 👋
+              Hi, I'm <span className="text-blue-500">Mohammad Hazeen Dodhiya</span> 👋
             </h1>
 
             <p className="text-gray-400 mt-4 text-lg">
