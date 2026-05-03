@@ -13,13 +13,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      <body className="bg-gray-950 text-white">
+      <body className="min-h-screen bg-gray-950 text-white antialiased">
 
-        {/* NAVBAR - shows on every page */}
+        {/* GLOBAL NAVBAR (persistent) */}
         <Navbar />
 
         {/* PAGE CONTENT */}
-        <main>{children}</main>
+        <main className="w-full">
+          {children}
+        </main>
 
       </body>
     </html>
