@@ -6,7 +6,7 @@ export default function About() {
 
       <p className="text-gray-300 mt-6 leading-relaxed">
         I am <span className="text-white font-semibold">Hazeen Dodhiya</span>, a final-year
-        Computer Science student based in Karachi, Pakistan, with a strong foundation in
+        Computer Science student from FAST NUCES, Pakistan, with a strong foundation in
         software engineering, systems programming, and AI-driven applications.
       </p>
 
