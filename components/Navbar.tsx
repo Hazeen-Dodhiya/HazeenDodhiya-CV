@@ -3,16 +3,16 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <nav className="w-full bg-gray-900 text-white border-b border-gray-800">
-      
-      <div className="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
+
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
 
         {/* LOGO */}
-        <h1 className="font-bold text-xl tracking-wide">
+        <h1 className="font-bold text-xl tracking-wide text-center sm:text-left">
           MyPortfolio
         </h1>
 
         {/* LINKS */}
-        <div className="flex gap-6 text-sm">
+        <div className="flex flex-wrap justify-center sm:justify-end gap-x-4 gap-y-2 text-sm">
           
           <Link href="/" className="hover:text-blue-400 transition">
             Home
