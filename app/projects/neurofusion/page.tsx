@@ -25,7 +25,7 @@ export default function NeuroFusionPage() {
       {/* IMAGE */}
       <section className="max-w-5xl mx-auto mt-10 flex justify-center">
         <Image
-          src="/neuro.jpeg"
+          src="/neuro.png"
           alt="NeuroFusion System"
           width={1000}
           height={550}
