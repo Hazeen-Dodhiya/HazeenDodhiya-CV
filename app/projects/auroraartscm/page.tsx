@@ -16,7 +16,7 @@ export default function AuroraFreightPage() {
         </p>
 
         <p className="text-gray-500 mt-2">
-          Client Project | 2025
+          Client Project | 2026
         </p>
 
       </section>
